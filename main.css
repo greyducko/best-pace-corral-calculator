@@ -1,0 +1,92 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 200px;
+}
+
+header {
+  background-color: #00215a;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+
+  color: #00215a;
+}
+
+input {
+  line-height: 3em;
+  font-size: 1em;
+  width: 50%;
+  padding: 0px;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+#distance {
+  font-size: 1.2em;
+}
+
+select {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  font-size: 25px;
+  border: 1px solid;
+
+  text-align: center;
+  padding: 10px;
+}
+
+#btn {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+}
+
+table tr:first-of-type td:first-of-type {
+  border-top-left-radius: 100px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+#bestPace {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 75px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>NYRR Best Pace Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <header>
+    <h1 class="header">
+      Best Pace and Corral Calculator for New York Road Runners Races
+    </h1>
+  </header>
+
+  <body>
+    <main>
+      <div id="calculator">
+        <table>
+          <form>
+            <legend><strong>Enter your best race time and select the distance.</strong></legend>
+            <tr>
+              <td>
+                <label for="distance">Distance</label>
+              </td>
+
+              <td>
+                <select id="distance" name="distance" required autofocus>
+                  <option value="3.1" selected>3.1 miles / 5K</option>
+                  <option value="4">4 miles / 6.4 K</option>
+                  <option value="6.2">6.2 miles / 10 K</option>
+                  <option value="9.3">9.3 miles / 15 K</option>
+                  <option value="10">10 miles / 16.1 K</option>
+                  <option value="13.1">
+                    13.1 miles / 21.1 K / Half-Marathon
+                  </option>
+                  <option value="26.2">26.2 miles/ 42.2 K / Marathon</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="hours">Hours</label>
+              </td>
+              <td>
+                <input type="number" id="hours" name="hours" min="0" max="59" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="minutes">Minutes</label>
+              </td>
+              <td>
+                <input
+                  type="number"
+                  id="minutes"
+                  name="minutes"
+                  min="0"
+                  max="59"
+                  height="500"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="seconds">Seconds</label></td>
+              <td><input type="number" id="seconds" name="seconds" /></td>
+            </tr>
+
+            <tr>
+              <td colspan="2"><button id="btn">Calculate</button></td>
+            </tr>
+          </form>
+        </table>
+
+        <div id="bestPace">
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
+
+      <div class="question">
+      <h2>How is my best pace calculated?</h2>
+      <p>
+        It is calculated by taking the time from your best race (over 5 K),
+        converting it to an equivalent time for a 10K, and taking the per mile
+        pace of the 10 K.
+      </p>
+    </div>
+
+    <div class="question">
+      <h2>What is my best pace used for?</h2>
+      <p>It's used to determine the corral you're in!</p>
+      <p></p>
+    </div>
+    </main>
+  </body>
+</html>
