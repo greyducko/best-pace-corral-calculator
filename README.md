@@ -1,4 +1,4 @@
-Best Pace and Corral Calculator for New York Road Runners Races
+# Best Pace and Corral Calculator for New York Road Runners Races
 
 This project is a calculator that calculates a runner's "best pace" and corral based off of a road race that they have ran. After inputting their race time and the distance of the race, it calculates their best pace
 (which is calculated by taking their race time, adjusting it to a 10 K time, and taking the per mile pace of the 10 K) and corral according to the methods and times listed on the New York Road Runners website. The New
