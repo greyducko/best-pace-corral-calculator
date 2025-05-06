@@ -1,12 +1,12 @@
 body {
   font-family: "Inter", sans-serif;
-  font-size: 25px;
+  font-size: 1em;
   font-weight: 400;
   font-style: normal;
 
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: 200px;
+  padding-top: 70px;
 }
 
 header {
@@ -27,13 +27,17 @@ h1,
 h2,
 h3 {
   font-family: "Inter", sans-serif;
-  font-size: 32px;
+  font-size: 1em;
 
   color: #00215a;
 }
 
+legend {
+  text-align: center;
+}
+
 input {
-  line-height: 3em;
+  line-height: 1em;
   font-size: 1em;
   width: 50%;
   padding: 0px;
@@ -42,7 +46,7 @@ input {
 }
 
 #distance {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 select {
@@ -53,15 +57,13 @@ table {
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
-
   table-layout: fixed;
-  width: 100%;
+  width: 50%;
 }
 
 td {
-  font-size: 25px;
+  font-size: 1em;
   border: 1px solid;
-
   text-align: center;
   padding: 10px;
 }

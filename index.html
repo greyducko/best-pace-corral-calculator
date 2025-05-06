@@ -11,7 +11,7 @@
 
   <header>
     <h1 class="header">
-      Best Pace and Corral Calculator for New York Road Runners Races
+      Best Pace and Corral Calculator for New York Road Runners' Races
     </h1>
   </header>
 
@@ -21,6 +21,7 @@
         <table>
           <form>
             <legend><strong>Enter your best race time and select the distance.</strong></legend>
+            <p></p>
             <tr>
               <td>
                 <label for="distance">Distance</label>
@@ -29,14 +30,14 @@
               <td>
                 <select id="distance" name="distance" required autofocus>
                   <option value="3.1" selected>3.1 miles / 5K</option>
-                  <option value="4">4 miles / 6.4 K</option>
-                  <option value="6.2">6.2 miles / 10 K</option>
-                  <option value="9.3">9.3 miles / 15 K</option>
-                  <option value="10">10 miles / 16.1 K</option>
+                  <option value="4">4 miles / 6.4K</option>
+                  <option value="6.2">6.2 miles / 10K</option>
+                  <option value="9.3">9.3 miles / 15K</option>
+                  <option value="10">10 miles / 16.1K</option>
                   <option value="13.1">
-                    13.1 miles / 21.1 K / Half-Marathon
+                    13.1 miles / 21.1K / Half-Marathon
                   </option>
-                  <option value="26.2">26.2 miles/ 42.2 K / Marathon</option>
+                  <option value="26.2">26.2 miles/ 42.2K / Marathon</option>
                 </select>
               </td>
             </tr>
@@ -87,16 +88,14 @@
       <div class="question">
       <h2>How is my best pace calculated?</h2>
       <p>
-        It is calculated by taking the time from your best race (over 5 K),
-        converting it to an equivalent time for a 10K, and taking the per mile
-        pace of the 10 K.
+        It is calculated by taking the time from your best race (distance must be 5K and above),
+        converting it to an equivalent time for a 10K, and calculating the per mile
+        pace of the 10K.
       </p>
+      <a href="https://www.nyrr.org/run/guidelines-and-procedures/policies-rules-and-regulations/race-procedures">Link to NYRR Corral Cutoffs</a>
+      <p>Note: This webpage is not affiliated with NYRR and was made as a form of project-based learning. Corrals and best pace may not be identical to your actual corral and pace. Additional features that can be implemented include displaying the best pace range based off a selected corral and calculating a time a runner needs to run for a certain distance to qualify for a specific corral.</p>
     </div>
 
-    <div class="question">
-      <h2>What is my best pace used for?</h2>
-      <p>It's used to determine the corral you're in!</p>
-      <p></p>
     </div>
     </main>
   </body>
