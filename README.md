@@ -1,7 +1,7 @@
 # Best Pace and Corral Calculator for New York Road Runners Races
 
-This project is a calculator that calculates a runner's "best pace" and corral based off of a road race that they have ran. After inputting their race time and the distance of the race, it calculates their best pace
-(which is calculated by taking their race time, adjusting it to a 10 K time, and taking the per mile pace of the 10 K) and corral according to the methods and times listed on the New York Road Runners website. The New
+This project is a calculator that calculates a runner's "best pace" and corral based off of a road race they have ran. After inputting their race time and the distance of the race, it calculates their best pace
+(which is calculated by taking their race time, adjusting it to a 10K time, and taking the per mile pace of the 10K) and corral according to the methods and times listed on the New York Road Runners' website. The New
 York Road Runners website is listed below:
 
 https://www.nyrr.org/run/guidelines-and-procedures/race-procedures
@@ -11,3 +11,4 @@ This calculator is for people who are curious to see which corral they are in an
 they hit their target time. 
 
 To use this calculator, simply copy the repository and open the index.html file in a browser. 
+You can also try it out here: https://greyducko.github.io/best-pace-corral-calculator/
